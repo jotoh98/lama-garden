@@ -1,0 +1,18 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #0003;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 1;
+    padding: 1rem;
+    color: #fefefe;
+    font: 1rem monospace;
+}
