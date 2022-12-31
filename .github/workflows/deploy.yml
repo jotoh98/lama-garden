@@ -19,9 +19,12 @@ jobs:
           version: 7
           run_install: true
 
+      - name: Build Project
+        run: pnpm run build
+
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: "lama-garden"
-          entrypoint: "index.html"
+          entrypoint: "mod.ts"
           root: "dist"
