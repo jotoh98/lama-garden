@@ -1,4 +1,4 @@
-import './style.css'
-import {setupCanvas} from "./game";
+import "./style.css"
+import { setupCanvas } from "./game"
 
-setupCanvas(document.getElementsByTagName('canvas')[0])
+setupCanvas(document.getElementsByTagName("canvas")[0])
